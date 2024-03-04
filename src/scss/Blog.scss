@@ -1,0 +1,19 @@
+.Grid{
+    
+    display: flex;
+    justify-content: center;
+   
+}
+.GridContainer{
+    display: grid;
+    grid-template-columns: 385px 800px;
+}
+.h2blogpost{
+    padding-left:9px ;
+}
+.spanBlog{
+    color: #6941C6;
+}
+.item1{
+        padding-right:10px ;
+}

@@ -1,0 +1,38 @@
+.ProjectContainer{
+    
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  align-self: stretch;
+  background: #FFF;
+}
+.imgProject {
+    height: 326px;
+    width: 585px;
+  }
+
+.ProjectContainerChild{
+    padding: 0px;
+}
+.imgMidProject{
+  width: 1216px;
+  height: 600px;
+}
+
+.AboutContainer{
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  align-self: stretch;
+  background: #FFF;
+}
+.imgBlog1{
+  width: 350px;
+}
+.imgBlogBot{
+  width: 800px;
+  height: 450px;
+}

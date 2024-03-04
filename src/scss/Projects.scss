@@ -1,0 +1,12 @@
+.Projects{
+    display: flex;
+    justify-content: center;
+}
+.ProjectChild{
+    display: flex;
+    width: 1216px;
+    justify-content: center;
+    .img{
+        width: 12px;
+    }
+}

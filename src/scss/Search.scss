@@ -1,0 +1,102 @@
+.NewContainer{
+ display: flex;
+padding: 30px 0px;
+flex-direction: column;
+align-items: center;
+
+
+}
+.h3Newlat{
+    color: black;
+text-align: center;
+/* Text md/Semibold */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 150% */
+height: 24px;
+}
+
+
+.h1New
+{
+    color:black;
+text-align: center;
+
+/* Display lg/Semibold */
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 0px; /* 125% */
+letter-spacing: -0.96px;
+
+height: 0px;
+}
+.pNew{
+    color:gray;
+
+text-align: center;
+/* Text xl/Normal */
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 0px; 
+
+padding-top: 24px;
+
+}
+
+.Email{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+   align-self: stretch;
+   padding-top: 40px;   
+   }
+.Enter{
+    display: flex;
+padding: 12px 14px 12px 16px;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+
+color: var(--Gray-500, #667085);
+/* Text md/Normal */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+border-radius: 8px;
+
+}
+
+.Sub{
+    display: flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    border-radius: 8px;
+border: 1px solid var(--Primary-600, #7F56D9);
+background: red ;
+
+/* Shadow/xs */
+box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.h6New{
+    color: #C0C5D0;
+
+/* Text sm/Normal */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+padding-right: 77px;
+}

@@ -1,0 +1,73 @@
+.paginationContainer {
+   display: flex;
+   justify-content: center;
+    .pagitionChild{
+        width: 1216px;
+        height: 61px;
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+        padding: 0px 32px;
+    }
+
+    .ChildImg {
+        display: flex;
+
+
+        .arrow {
+            width: 20px;
+            height: 20px;
+
+        }
+        .befordandfter{
+            color: #667085;
+
+/* Text sm/Medium */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+        }
+    }
+
+    .center {
+        display: flex;
+        width: 40px;
+        padding: 12px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        align-self: stretch;
+
+        .active {
+            color:black;
+            text-align: center;
+
+            /* Text sm/Medium */
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+            /* 142.857% */
+            padding-right: 20px;
+        }
+
+        .default {
+            padding-right: 20px;
+            color: #667085;
+            text-align: center;
+
+            /* Text sm/Medium */
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+            /* 142.857% */
+        }
+    }
+}
